@@ -1,37 +1,112 @@
-## Welcome to GitHub Pages
+# PGP Keys
 
-You can use the [editor on GitHub](https://github.com/jnex-us/pgp.jnex.us/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## ECC
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Fingerprint
+```
+6403 B9C8 4596 878E CE6C 4A76 FDB5 896D D985 F6F6
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Key ID
+```
+0xFDB5896DD985F6F6
+```
 
-### Jekyll Themes
+### Public Key
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+xjMEYg/dYxYJKwYBBAHaRw8BAQdAVZhnAHvfMgXksFqTERqC+JH25Ps0U/2l/nW5
+/aFTuWHNJFRyYXZpcyBKb2huc29uIDx0cmF2aXNAam1haWx1c2EuY29tPsKLBBMW
+CAAzFiEEZAO5yEWWh47ObEp2/bWJbdmF9vYFAmIP3WMCGwMFCwkIBwIGFQgJCgsC
+BRYCAwEAAAoJEP21iW3Zhfb2ZIQBAILIm5JiguVs/pE/BCXdg9ICTl5PtpLVACzm
+GCw0QVMwAQDoDcAwM+Rj6RAkox9QSgmmk3R9V08kx5KzFjVl33LhDc44BGIP3WMS
+CisGAQQBl1UBBQEBB0ABmmEYkLdLQk2yr2fLT2cypRsFRNn/eu0duKstqWQ7bQMB
+CAfCeAQYFggAIBYhBGQDuchFloeOzmxKdv21iW3Zhfb2BQJiD91jAhsMAAoJEP21
+iW3Zhfb2ZJcBAJUO1426zVNADJrDdL1usifSHDJWIOSeR8+r68UJ5eTSAQDAzGJR
+aSGb2fweEsMvTcpT7uUcIi/JpdpOIcYmtHnKBA==
+=JdOJ
+-----END PGP PUBLIC KEY BLOCK-----
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jnex-us/pgp.jnex.us/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## RSA
 
-### Support or Contact
+### Fingerprint
+```
+7F78 28B8 73C5 ABF9 F063 58B9 0A8E A88F FF3F E0BE
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Key ID
+```
+0x0A8EA88FFF3FE0BE
+```
+
+### Public Key
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+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
+=s9ZW
+-----END PGP PUBLIC KEY BLOCK-----
+```
